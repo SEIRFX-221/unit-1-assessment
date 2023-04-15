@@ -37,7 +37,7 @@ plus.addEventListener('click', function () {
 minus.addEventListener('click', function () {
     let inputValue = Number(document.getElementById('input').value);
     let resultValue = Number(document.getElementById('result').value);
-    result.value = subtraction(inputValue, resultValue);
+    result.value = subtraction(resultValue, inputValue);
     console.log('tell me what my answer is', result.value);
     result.innerText = result.value;
     if (result.value >= 0) {

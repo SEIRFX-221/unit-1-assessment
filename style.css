@@ -22,11 +22,23 @@ div {
 #plus {
     margin-right: 30px;
     background-color: green;
+
+}
+
+#plus:hover {
+    background-color: rgb(45, 139, 87);
+    color: antiquewhite;
+
 }
 
 #minus {
     margin-left: 30px;
     background-color: red;
+}
+
+#minus:hover {
+    background-color: orangered;
+    color: antiquewhite;
 }
 
 #input {
