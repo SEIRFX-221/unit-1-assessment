@@ -1,0 +1,60 @@
+body {
+    background-color: aliceblue;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 108px;
+}
+
+#plus,
+#minus {
+    padding: 42px;
+    margin: 0 auto;
+    border: 15px;
+    border-radius: 30px;
+
+}
+
+#plus {
+    margin-right: 30px;
+    background-color: green;
+
+}
+
+#plus:hover {
+    background-color: rgb(45, 139, 87);
+    color: antiquewhite;
+
+}
+
+#minus {
+    margin-left: 30px;
+    background-color: red;
+}
+
+#minus:hover {
+    background-color: orangered;
+    color: antiquewhite;
+}
+
+#input {
+    padding: 42px;
+    font-size: 42px;
+    text-align: center;
+    border: 0px;
+    border-color: grey;
+    border-radius: 30px;
+    background-color: grey;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 42px;
+    font-size: 72px;
+}
