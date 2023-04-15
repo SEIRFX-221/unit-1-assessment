@@ -5,6 +5,7 @@ const inputValue = document.getElementById('input-num');
 
 let sumNum = 0
 
+inputValue.value = 1;
 plusButton.addEventListener('click', function () {
     let number = parseInt(inputValue.value);
     if (number) {
