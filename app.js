@@ -14,12 +14,12 @@ function buttonPlusHit() {
         count = parseInt(inputValue);
         countDisplay.textContent = 0 + count;
         countDisplay = document.querySelector('.count-display');
-        colorBluePositive();
+        colorBlackPositive();
     } else if (countDisplay.textContent !== '0' ){
         count = parseInt(inputValue);
         countDisplay.textContent = parseInt(countDisplay.textContent) + count;
         countDisplay = document.querySelector('.count-display');
-        colorBluePositive();
+        colorBlackPositive();
     } 
 
 }
@@ -51,9 +51,9 @@ function colorRedNegative() {
     }
 }
 
-function colorBluePositive() {
+function colorBlackPositive() {
     countDisplay = document.querySelector('.count-display');
     if (parseInt(countDisplay.textContent) > 0) {
-        countDisplay.style.color = 'blue';
+        countDisplay.style.color = 'black';
     }
 }
