@@ -14,7 +14,7 @@ plusButton.addEventListener('click', function () {
         changeColor();
     } else {
         alert('Need to input a number')
-        inputValue.value = '';
+        inputValue.value = '1';
     }
 
 })
@@ -27,7 +27,7 @@ minusButton.addEventListener('click', function () {
         changeColor();
     } else {
         alert('Need to input a number')
-        inputValue.value = '';
+        inputValue.value = '1';
     }
 })
 
