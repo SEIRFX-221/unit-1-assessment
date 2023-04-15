@@ -1,0 +1,83 @@
+body {
+  margin-top: 10vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  gap: 15px;
+}
+
+h1 {
+  font-family: "Lucida Sans";
+}
+
+#counterElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(241, 241, 175);
+  width: 25vw;
+  height: 40vh;
+  border-radius: 5px;
+  position: relative;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.operation {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(163, 163, 163);
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
+  font-weight: 900;
+  position: absolute;
+}
+
+#add {
+  bottom: 5px;
+  right: 5px;
+}
+
+#add:hover {
+  background-color: white;
+  color: rgb(163, 163, 163);
+}
+
+#subtract {
+  bottom: 5px;
+  left: 5px;
+}
+
+#subtract:hover {
+  background-color: white;
+  color: rgb(163, 163, 163);
+}
+
+#userInput {
+  font-size: 25px;
+  border: 2px solid rgb(163, 163, 163);
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  height: 44px;
+  bottom: 5px;
+  left: 70px;
+  right: 70px;
+  position: absolute;
+}
+
+#count {
+  font-size: 30px;
+  top: 65px;
+  position: absolute;
+}
+
+h1 {
+  top: 5px;
+  position: absolute;
+}
