@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-size: 30px;
+}
+
+.input {
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    width: 100px
+}
+
+.button {
+    background-color: grey;
+    color: white;
+    border: grey;
+    border-radius: 5px;
+    padding 10px 20px;
+    border-radius: 5px cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    width: 40px;
+    height: 40px;
+}
+
+.button:hover {
+    background-color: white;
+    color: grey;
+    border: grey;
+}
