@@ -14,15 +14,24 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 addButton.addEventListener('click', () => {
-    number += parseInt(inputNumber.value)
-    numberDisplay.textContent = number
+    number += parseInt(inputNumber.value);
+    numberDisplay.textContent = number;
+    ifNegative();
 
 });
 
 subtractButton.addEventListener('click', () => {
-    number -= parseInt(inputNumber.value)
-    numberDisplay.textContent = number
+    number -= parseInt(inputNumber.value);
+    numberDisplay.textContent = number;
+    ifNegative();
 
 });
 
 // Bonus Color if Negative
+function ifNegative() {
+    if (number < 0) {
+        numberDisplay.style.color = 'red';
+    } else {
+        numberDisplay.style.color = "black";
+    }
+}
