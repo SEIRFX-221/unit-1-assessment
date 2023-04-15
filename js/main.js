@@ -7,7 +7,8 @@ let sumNum = 0
 
 inputValue.value = 1;
 plusButton.addEventListener('click', function () {
-    let number = parseInt(inputValue.value);
+    let number = Number(inputValue.value);
+    console.log(typeof number)
     if (number) {
         sumNum += number;
         result.textContent = sumNum;
@@ -16,11 +17,10 @@ plusButton.addEventListener('click', function () {
         alert('Need to input a number')
         inputValue.value = '1';
     }
-
 })
 
 minusButton.addEventListener('click', function () {
-    let number = parseInt(inputValue.value);
+    let number = Number(inputValue.value);
     if (number) {
         sumNum -= number;
         result.textContent = sumNum;
