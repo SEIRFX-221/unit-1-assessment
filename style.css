@@ -1,11 +1,35 @@
-body {
-    flex-direction: row;
-}
-
 h1 {
+    display: flex;
+    justify-content: center;
     color: blue;
 }
 
-.input {
+.buttons{
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+}
+
+button {
+    background-color: gainsboro;
+    font-size: 35px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.minus {
+    padding: 10px 25px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+input {
+    font-size: 35px;
     width: 75px;
+    text-align: center;
+    border: 2px solid gray;
+    margin: 25px;
+
 }
