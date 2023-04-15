@@ -10,6 +10,7 @@ let numberInput = document.querySelector('#number-input')
 // EVENT LISTENERS
 window.addEventListener('DOMContentLoaded', () => {
     numberDisplay.textContent = number;
+    numberInput.value = 1;
 })
 
 addButton.addEventListener('click', () => {
