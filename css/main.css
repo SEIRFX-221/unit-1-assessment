@@ -1,0 +1,25 @@
+
+
+#counter-container {
+    width: 350px;
+    height: 350px;
+    display: relative;
+    margin: 0 auto 0 auto;
+
+
+}
+
+#display-text {
+width: 50px;
+height: 50px;
+margin: 0 auto 0 auto;
+text-align: center;  
+display: block;
+text-align: center; 
+
+
+}
+
+input  {height: 40px; width: 40px; text-align: center; border: solid 2px #ccc;}
+
+button { height: 46px; width: 46px; padding: 10px; margin: 0 30px 0 30px; background: #ccc; color: #FFF; border: none;}
