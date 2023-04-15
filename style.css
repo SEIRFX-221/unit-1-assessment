@@ -1,0 +1,11 @@
+body {
+    flex-direction: row;
+}
+
+h1 {
+    color: blue;
+}
+
+.input {
+    width: 75px;
+}
