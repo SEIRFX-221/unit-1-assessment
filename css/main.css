@@ -4,7 +4,6 @@ section {
 	align-items: center;  
 	font-size: 30px;
 }
-
 #input {
     width: 150px;
     height: 60px;
@@ -16,6 +15,7 @@ section {
 .buttons {
     background-color: rgb(196, 202, 208);
     width: 60px;
+    color: white;
     height: 60px;
     border-radius: 5px;
     border-width: thin;
