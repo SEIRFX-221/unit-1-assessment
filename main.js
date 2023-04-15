@@ -30,7 +30,18 @@ function subtractNumber() {
   textColor();
 }
 
+function inputWidth() {
+  const value = input.value || "";
+  const fontSize = parseFloat(window.getComputedStyle(input).getPropertyValue("font-size"));
+  const padding = 5;
+  const adjustedWidth = value.length * fontSize + padding;
+  input.style.width = `${adjustedWidth}px`;
+}
+
+input.addEventListener("input", inputWidth);
+
 
 
 document.getElementById("plusButton").addEventListener("click", addNumber);
 document.getElementById("minusButton").addEventListener("click", subtractNumber);
+
