@@ -43,9 +43,19 @@ h1 {
   left: 5px;
 }
 
+#add:hover {
+  background-color: white;
+  color: rgb(163, 163, 163);
+}
+
 #subtract {
   bottom: 5px;
   right: 5px;
+}
+
+#subtract:hover {
+  background-color: white;
+  color: rgb(163, 163, 163);
 }
 
 #userInput {
