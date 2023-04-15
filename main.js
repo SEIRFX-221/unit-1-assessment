@@ -10,11 +10,13 @@ let count = 0
 function addNumber() {
   count += Number(input.value);
   calculatedNumber.textContent = count;
+  input.value = "";
 }
 
 function subtractNumber() {
   count -= Number(input.value);
   calculatedNumber.textContent = count;
+  input.value = "";
 }
 
 document.getElementById("plusButton").addEventListener("click", addNumber);
