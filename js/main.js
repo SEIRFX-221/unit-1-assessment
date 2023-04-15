@@ -16,10 +16,22 @@ window.addEventListener('DOMContentLoaded', () => {
 addButton.addEventListener('click', () => {
     number += parseInt(numberInput.value)
     numberDisplay.textContent = number
+    isNegative();
 } )
 
 subtractButton.addEventListener('click', () => {
     number -= parseInt(numberInput.value)
     numberDisplay.textContent = number
+    isNegative();
 } )
 // EVENT LISTENERS
+
+// COLOR FUNCTION
+function isNegative() {
+    if (number < 0) {
+        numberDisplay.style.color = 'red';
+    } else {
+        numberDisplay.style.color = 'black';
+    }
+}
+// COLOR FUNCTION
