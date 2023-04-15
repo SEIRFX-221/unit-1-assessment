@@ -20,20 +20,21 @@ counterContainer.appendChild(displayText);
 counterContainer.appendChild(minusBtn);
 counterContainer.appendChild(digitInput);
 counterContainer.appendChild(addBtn);
+
 digiVal = document.querySelector('input').value;
 console.log(digiVal);
 addBtn.addEventListener("click", function () {
     digiVal = document.querySelector('input').value;
     console.log(digiVal);
     counterValue++;
-    displayText.textContent = counterValue += parseInt(digiVal);
+    displayText.textContent = counterValue + parseInt(digiVal);
     console.log(displayText);
 });
 
 minusBtn.addEventListener("click", function () {
     digiVal = document.querySelector('input').value;
     counterValue--;
-    displayText.textContent = counterValue -= parseInt(digiVal);
+    displayText.textContent = counterValue - parseInt(digiVal);
     console.log(digitInput.value);
 });
 
