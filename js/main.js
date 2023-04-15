@@ -4,8 +4,7 @@ const subtractButton = document.getElementById('subtractButton')
 const input = document.getElementById('input')
 let count = 0
 counter.innerText = count
-// let inputValue = input.value;
-// console.log(inputValue);
+
 
 addButton.addEventListener('click', ()=>{
     let inputValue = input.value
@@ -18,6 +17,11 @@ addButton.addEventListener('click', ()=>{
     } else if (!inputValue){
         count++ 
         counter.textContent = count
+    }
+    if (countValue < 0) {
+        counter.style.color = 'red';
+    } else {
+        counter.style.color = 'black';
     }
 
 }) 
@@ -34,13 +38,13 @@ subtractButton.addEventListener('click', ()=>{
         count--
         counter.textContent = count;
     } 
-
-    if (countValue <= -1) {
+    if (countValue < 0) {
         counter.style.color = 'red';
+    } else {
+        counter.style.color = 'black';
     }
+  
 })
 
-// function updateCounter(){
-//     counter.textContent = count
-// }
+
 
