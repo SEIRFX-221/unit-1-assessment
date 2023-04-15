@@ -40,7 +40,7 @@ h1 {
 
 #add {
   bottom: 5px;
-  left: 5px;
+  right: 5px;
 }
 
 #add:hover {
@@ -50,7 +50,7 @@ h1 {
 
 #subtract {
   bottom: 5px;
-  right: 5px;
+  left: 5px;
 }
 
 #subtract:hover {
